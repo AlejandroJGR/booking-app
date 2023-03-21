@@ -1,0 +1,45 @@
+.f-properties__container {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.f-property__item {
+  color: #010101;
+  gap: 1rem;
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.f-property__Img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+}
+.f-property__Name{
+  font-weight: bold;
+}
+.f-property__City{
+  font-weight: 300;
+}
+.f-property__Price{
+  font-weight: 500;
+}
+.f-property__Rating>button{
+  background-color: #003580;
+  color: #f1f1f1;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-weight: bold;
+  border-radius: 0;
+}
+f-property__Rating>span{
+  font-size: 14px;
+}
